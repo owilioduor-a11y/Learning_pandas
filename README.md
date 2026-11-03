@@ -35,7 +35,7 @@ Learning_pandas/
 ├── .github/
 │   └── workflows/
 │       └── python.yml              # CI workflow
-├── data/                           # Sample datasets (not tracked in git)
+├── data/                           # Sample datasets 
 │   ├── raw/
 │   └── processed/
 ├── notebooks/                      # Jupyter notebooks
