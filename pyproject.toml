@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "learning_pandas"
+version = "0.1.0"
+description = "A hands-on learning repository for data analysis and manipulation using pandas"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    { name = "Peter Owili", email = "owilioduor@gmail.com" }
+]
+dependencies = [
+    "pandas>=1.5.0",
+    "numpy>=1.22.0",
+    "jupyter>=1.0.0",
+    "matplotlib>=3.5.0",
+    "seaborn>=0.11.0",
+    "openpyxl>=3.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=22.0",
+    "flake8>=4.0",
+    "mypy>=0.950",
+]
+
+[project.scripts]
+learning-pandas = "learning_pandas.utils:main"
