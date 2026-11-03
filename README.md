@@ -159,7 +159,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ## 📬 Contact
 
 - **Author:** Peter Owili
-- **GitHub:** [@YOUR_USERNAME](https://github.com/owilioduor-a11y)
+- **GitHub:** [@owilioduor-a11y](https://github.com/owilioduor-a11y)
 - **Email:** owilioduor@gmail.com
 
 ---
